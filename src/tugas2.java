@@ -65,7 +65,7 @@ class Intern extends Employee {
 
     @Override
     double calculateSalary() {
-        return baseSalary - 300000;
+        return baseSalary + 300000;
     }
 
     @Override
